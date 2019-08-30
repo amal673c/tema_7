@@ -1,0 +1,30 @@
+[{
+        "navn": "Kamilla",
+        "hold": "b",
+        "højde": 170,
+        "hårfarve": "sølv",
+        "billede": "https://kvikea.dk/pix1.jpg",
+        "thumb": "https://kvikea.dk/pix2.jpg"
+        //der skal ikke komma efter sidste egenskab
+            },
+    {
+        "navn": "Martin",
+        "hold": "a",
+        //Når det er tal det drejser sig om behøves der ikke gåseøjne
+        "højde": 180,
+        "hårfarve": "blå",
+        "billede": "martin.jpg",
+        "thumb": "martin1.jpg"
+        //der skal ikke komma efter sidste egenskab
+            },
+    {
+        "navn": "Alan",
+        "hold": "b",
+        //Når det er tal det drejser sig om behøves der ikke gåseøjne
+        "højde": 170,
+        "hårfarve": "rød",
+        "billede": "https://ale-kea.dk/images/alan1.jpg",
+        "thumb": "https://ale-kea.dk/images/alan_thumb.jpg"
+        //der skal ikke komma efter sidste egenskab
+            }
+        ]
