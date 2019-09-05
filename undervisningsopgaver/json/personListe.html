@@ -11,15 +11,15 @@
             grid-gap: 2rem;
         }
 
-        article img{
+        article img {
             width: 100%;
         }
 
-         .personer {
+        .personer {
             border: 1px solid black;
             margin: 5px;
             padding: 5px;
-             background-color: skyblue;
+            background-color: skyblue;
         }
 
     </style>
@@ -82,9 +82,9 @@
                 h2.textContent = person.gsx$navn.$t;
 
 
-                  const p1 = klon.querySelector("p");
-                  const p2 = klon.querySelector("p + p");
-                 const p3 = klon.querySelector("p + p + p");
+                const p1 = klon.querySelector("p");
+                const p2 = klon.querySelector("p + p");
+                const p3 = klon.querySelector("p + p + p");
                 p1.textContent = " Github " + person.gsx$github.$t;
 
 
@@ -99,5 +99,8 @@
                 listElm.appendChild(klon);
             })
         }
+
     </script>
-</body></html>
+</body>
+
+</html>
