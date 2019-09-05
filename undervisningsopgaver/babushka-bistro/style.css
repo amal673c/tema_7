@@ -12,6 +12,13 @@
             text-align: center;
         }
 
+        h1 {
+            text-align: center;
+            color: red;
+            font-family: sans-serif;
+            font-size: 3rem;
+        }
+
         .kategori {
             border: 1px solid black;
             margin: 5px;
@@ -28,11 +35,8 @@
             left: 0;
             width: 100vw;
             height: 100vh;
-            background: pink;
             overflow: scroll;
             display: none;
-
-
         }
 
         #detalje .luk {
@@ -42,7 +46,7 @@
             font-size: 4rem;
         }
 
-        #detalje .person {
+        #detalje .kategori {
             width: 60vw;
             min-height: 50vh;
             margin: 4rem auto;

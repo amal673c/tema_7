@@ -47,8 +47,8 @@
                p3.textContent += " Oprindelse " + kategori.gsx$oprindelse.$t;
 
                const img = klon.querySelector("img");
-               img.src = kategori.gsx$billede.$t;
-               img.alt = "Billede af " + kategori.navn;
+               img.src = "imgs/small/" + kategori.gsx$billede.$t + "-sm.jpg";
+               img.alt = "Billede af " + kategori.gsx$navn;
 
 
                //
@@ -57,6 +57,7 @@
                //
                // visDetalje(person);
                // });
+
                dest.appendChild(klon);
 
                dest.lastElementChild.addEventListener("click", () => {
@@ -74,12 +75,12 @@
        document.querySelector("#detalje .luk").addEventListener("click", skjulDetalje);
 
        document.querySelector("#detalje h2").textContent = kategori.gsx$navn.$t;
-       document.querySelector("#detalje img").src = kategori.gsx$billede.$t;
+       document.querySelector("#detalje img").src = "imgs/large/" + kategori.gsx$billede.$t + ".jpg";
        document.querySelector("detalje img").alt = `Portræt af ${kategori.gsx$billede.$t}`;
 
 
-       //       document.querySelector("#detalje .githubLink").href = `https://github.com/${kategori.gsx$github.$t}`;
-       //       document.querySelector("#detalje .githubLink").textContent = `github.com/${person.gsx$github.$t}`;
+       //       document.querySelector("#detalje .githubLink").href = `https://github.com/${kategori.gsx$pris.$t}`;
+       //       document.querySelector("#detalje .githubLink").textContent = `github.com/${person.gsx$lang.$t}`;
 
    }
 
