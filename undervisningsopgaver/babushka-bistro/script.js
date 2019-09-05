@@ -44,8 +44,8 @@
                const p3 = klon.querySelector("p + p + p");
                const p4 = klon.querySelector("p + p + p + p");
                p1.textContent = " Pris " + kategori.gsx$pris.$t;
-               p2.textContent += " Kort " + kategori.gsx$kort.$t;
-               p3.textContent += " Oprindelse " + kategori.gsx$oprindelse.$t;
+               p2.textContent += "  " + kategori.gsx$kort.$t;
+               p3.textContent += " Oprindelse: " + kategori.gsx$oprindelse.$t;
 
 
                const img = klon.querySelector("img");
